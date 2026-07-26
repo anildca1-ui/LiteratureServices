@@ -58,11 +58,11 @@ this table as-is.**
 
 | # | Firm | City | List | Why on the list | Fit risk to check |
 |---|---|---|---|---|---|
-| 1 | Copperpod IP | Gurgaon [VERIFY] | A | Named in brief: ~41 staff, ECE/EE litigation support — profile matches T3 exactly | May have CN freelancer network already |
-| 2 | iRunway | Bangalore | A | Named in brief; litigation-support research | Size may exceed 50; check current state |
-| 3 | Dolcera | Hyderabad | A | Named in brief; local — in-person meeting possible | Check if their analytics platform includes CN coverage |
-| 4 | Effectual Services | Noida | A | Named in brief | Larger side; find the right delivery head |
-| 5 | Inrea Research | Mumbai | A | Patent research/analytics for F500, SMEs, law firms | Verify headcount band |
+| 1 | Copperpod IP | Chandigarh (HQ New York) | A | Named in brief: ~41 staff, ECE/EE litigation support — profile matches T3 exactly | May have CN freelancer network already |
+| 2 | ~~iRunway~~ | — | DEAD | Acquired by UnitedLex in 2013 and fully absorbed — the master brief is stale here | Do not pitch; UnitedLex has in-house scale |
+| 3 | Dolcera | Hyderabad (Rai Durg) | A | Named in brief; local — in-person meeting possible. Office: Salarpuria Sattva Knowledge City; contact form at web.dolcera.com/contact | Now "AI-native IP services" — check CN coverage claims |
+| 4 | Effectual Services | Noida (NSEZ) | A | Named in brief. info@effectualservices.com · +91 120 4522210 | 250+ professionals — above the 5-50 band; info@ is weak, find the delivery head |
+| 5 | Inrea Research | Mumbai (Parel) | A | Patent research/analytics for F500, SMEs, law firms; inrearesearch.com · +91 22 4098 7600 | Verify headcount band; no direct email found — use site form |
 | 6 | Metacog Patent Research Solutions | [VERIFY] | A | Dedicated prior-art/novelty search shop | Verify size, seniority of buyer |
 | 7 | IPExcel | Bangalore [VERIFY] | A | Novelty/invalidity/FTO/landscape services | Verify research team size |
 | 8 | IPMetrix | Bangalore/Chennai | A | Search, landscape, FTO services | Verify size |
@@ -73,6 +73,8 @@ this table as-is.**
 | 13 | BananaIP Counsels | Bangalore | C | Law firm with a search & analytics arm | Customer for overflow, or multiplier |
 | 14 | Origiin IP Solutions | Bangalore | C | IP services firm | Likely multiplier, not search buyer |
 | 15 | Define IPR Solutions | [VERIFY] | C | Named referral multiplier in brief (Rajesh Panigrahi) | Warm channel — contact first, ask for intros |
+| 16 | Synoptic IP | [VERIFY] | A | 45–50 patent engineers, est. 2012, US/EU clients — squarely in the 5–50 band | Verify city and named buyer |
+| 17 | DexPatent | Chennai [VERIFY] | A | Est. 2006; IP search and analytics services | Verify size and service depth |
 
 **Explicit competitor exclusions (do not pitch):** Sagacious IP,
 Evalueserve, GreyB — in-house Chinese capability per brief/site claims.
@@ -86,6 +88,37 @@ Web sources used: [YourStory: Top 10 patent search services in India](https://yo
 [Videaim IP](https://www.videaimip.com/index.html),
 [BananaIP](https://www.bananaip.com/services/patents/patent-search-analytics),
 [Origiin](https://origiin.com/), [Menteso](https://menteso.com/blog/top-10-prior-art-search-firms/).
+
+## 3a. Verification log — 26 Jul 2026
+
+Findings from a verification pass (web research; sources linked in §3 and
+below):
+
+- **iRunway is gone** — acquired by UnitedLex (2013) and fully absorbed
+  ([UnitedLex announcement](https://unitedlex.com/news/unitedlex-expands-enterprise-level-ip-solutions-capabilities-with-irunway-acquisition/)).
+  Removed from outreach; replaced in batch 1 by Synoptic IP.
+- **Copperpod IP** — HQ New York, delivery centre **Chandigarh**, not
+  Gurgaon ([about page](https://www.copperpodip.com/about-1)). Litigation
+  support for US/EU/APAC law firms — still a strong T3 fit.
+- **Dolcera** — Hyderabad office: Salarpuria Sattva Knowledge City, Octave
+  Block, Rai Durg ([contact](https://web.dolcera.com/contact)). Positioning
+  is now "AI-native IP services".
+- **Effectual Services** — verified: info@effectualservices.com,
+  +91 120 4522210, SDF A-05 NSEZ Noida ([contact page](https://www.effectualservices.com/contact-us/)).
+  Claims 250+ professionals — above the 5–50 band; treat as a big-firm
+  pursuit (needs a named delivery head).
+- **Inrea Research** — verified Mumbai (Podar Center, Parel East),
+  +91 22 4098 7600, site inrearesearch.com; no public email found.
+- **New finds:** [Synoptic IP](https://synopticip.com/top-10-patent-search-companies-in-india-unlocking-the-power-of-domain-expertise/)
+  (45–50 patent engineers, est. 2012) and DexPatent (Chennai, est. 2006) —
+  added as rows 16–17.
+- **GreyB** — confirmed large and AI-driven with mechanical expertise:
+  stays on the competitor exclusion list.
+
+Still open on every row: a named contact person with a working email.
+Generic info@ addresses convert poorly — the LinkedIn people-cluster method
+in §2 is how you get named delivery heads. That step needs your LinkedIn
+account and cannot be done from this repo.
 
 ## 4. Next 105
 

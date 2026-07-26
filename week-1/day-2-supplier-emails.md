@@ -1,18 +1,25 @@
 # Day 2 — Supplier emails: CNKI International and Wanfang
 
-DRAFTS — under 200 words each, per the Day 2 instruction. Before sending:
-verify the current enquiry address on each supplier's official site
-(oversea.cnki.net for CNKI International; wanfangdata.com / its
-international-cooperation page for Wanfang), fill in your name and phone,
-and send from a professional address. **Sending these starts the moat
-clock — do it Day 2, not Week 3.**
+DRAFTS — under 200 words each, per the Day 2 instruction. Addresses below
+were found via web research (July 2026) — do a 30-second confirmation on the
+supplier's own contact page before sending, fill in your name and phone, and
+send from a professional address. **Sending these starts the moat clock — do
+it Day 2, not Week 3.**
+
+Contact routes found:
+
+| Supplier | Address | Source |
+|---|---|---|
+| CNKI International — marketing (reseller/agent enquiries) | `marketing@int.cnki.net` · +86 10 6119 0881 | [CNKI overseas contact page](https://oversea.cnki.net/index/second/contactUs.html) |
+| CNKI International — overseas customer service (backup) | `services@int.cnki.net` · +86 10 8271 0771 | same |
+| Wanfang Data — overseas business | `overseas@wanfangdata.com` · +86 10 5888 2628 | [Wanfang contact/order page](http://www.wanfangdata.com/order.asp) |
 
 ---
 
 ## Email 1 — CNKI International (Tongfang Knowledge Network)
 
-**To:** [VERIFY current address on oversea.cnki.net — international
-cooperation / overseas sales contact]
+**To:** marketing@int.cnki.net *(confirm on oversea.cnki.net contact page
+before sending; cc services@int.cnki.net if no reply by FU1)*
 **Subject:** India reseller enquiry — document delivery service, Hyderabad
 
 Dear CNKI International team,
@@ -48,8 +55,9 @@ CN Document Desk, Hyderabad, India
 
 ## Email 2 — Wanfang Data
 
-**To:** [VERIFY current address on wanfangdata.com — international
-cooperation / overseas business contact]
+**To:** overseas@wanfangdata.com *(confirm on wanfangdata.com before
+sending; Wanfang also runs a HK international subsidiary — useful later for
+the month-4 invoicing route)*
 **Subject:** India agent enquiry — Wanfang document delivery
 
 Dear Wanfang Data international team,

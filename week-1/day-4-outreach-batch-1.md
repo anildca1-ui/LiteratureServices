@@ -1,12 +1,22 @@
 # Day 4 — Outreach batch 1 (5 drafts)
 
 Drafted with D5 rules: under 150 words, subject under 8 words, ask =
-vendor-list registration, first job at cost. Personalisation below is based
-on the master brief's own characterisation of each firm plus light web
-research — **per D5's own rule ("a generic email is better than a wrong
-one"), re-verify each opening line against the firm's live site, and fill
-the [CONTACT] fields with a named person, before sending.** Log every send
-in `funnel.csv`.
+vendor-list registration, first job at cost. Firms were verified 26 Jul 2026
+(see `day-3-target-list.md` §3a) — **iRunway was dropped (absorbed into
+UnitedLex in 2013) and replaced with Synoptic IP.** What remains before
+sending: fill the [CONTACT] fields with a named person (LinkedIn
+people-search — needs your account), give each opening line a 30-second
+check against the firm's live site, and log every send in `funnel.csv`.
+
+Send routes found so far:
+
+| Firm | Route |
+|---|---|
+| Copperpod IP | Named contact via LinkedIn (delivery centre: Chandigarh; HQ New York) — copperpodip.com |
+| Dolcera | Contact form web.dolcera.com/contact + LinkedIn; office: Salarpuria Sattva Knowledge City, Rai Durg, Hyderabad |
+| Effectual Services | info@effectualservices.com · +91 120 4522210 — weak channel; find the delivery head on LinkedIn |
+| Synoptic IP | [VERIFY] via synopticip.com |
+| Inrea Research | Site form inrearesearch.com · +91 22 4098 7600 |
 
 ---
 
@@ -89,15 +99,16 @@ Regards,
 
 ---
 
-## 4. iRunway
+## 4. Synoptic IP *(replaces iRunway — see day-3 verification log)*
 
 **Subject:** Chinese prior art beyond machine translation
 
 Dear [CONTACT — VERIFY],
 
-Litigation-grade searches live and die on recall, and the recall gap today
-is Chinese-language art: utility models and journal papers that
-English-keyword searches over machine translations don't surface.
+With a bench of 45-odd patent engineers serving US and European clients,
+your team hits the wall every Indian search bench hits: Chinese utility
+models and journal art that English-keyword searching over machine
+translations never surfaces.
 
 I run a Chinese document procurement and verification desk in Hyderabad —
 native-keyword sweeps (validated by a native reviewer) positioned strictly
