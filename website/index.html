@@ -3,142 +3,217 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CN Document Desk — Chinese technical documents, procured &amp; verified</title>
+<title>CN Document Desk</title>
 <meta name="description" content="A Hyderabad-based procurement and verification desk for Chinese technical literature: CNKI/Wanfang journal retrieval, Chinese standards including superseded versions, standards landscapes, and native-keyword patent sweeps.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
   :root {
-    --ink: #1c2430;
-    --body: #3d4552;
-    --muted: #6b7280;
-    --accent: #a63a2b;
-    --accent-dark: #7f2d21;
-    --paper: #faf8f5;
-    --card: #ffffff;
-    --line: #e5e0d8;
+    --paper: #FBFBF9;
+    --surface: #FFFFFF;
+    --ink: #1B2733;
+    --body-c: #3C4854;
+    --muted: #66727E;
+    --seal: #A8342A;
+    --seal-ink: #FFFFFF;
+    --line: #DDE1E1;
+    --line-strong: #B9C0C5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #141A21;
+      --surface: #1B232C;
+      --ink: #E8EAE6;
+      --body-c: #B9C2C9;
+      --muted: #8B959E;
+      --seal: #C24B3E;
+      --seal-ink: #FFF6F4;
+      --line: #2A343E;
+      --line-strong: #3C4854;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #141A21;
+    --surface: #1B232C;
+    --ink: #E8EAE6;
+    --body-c: #B9C2C9;
+    --muted: #8B959E;
+    --seal: #C24B3E;
+    --seal-ink: #FFF6F4;
+    --line: #2A343E;
+    --line-strong: #3C4854;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: "IBM Plex Sans", -apple-system, "Segoe UI", Arial, sans-serif;
     background: var(--paper);
-    color: var(--body);
-    line-height: 1.65;
+    color: var(--body-c);
+    line-height: 1.68;
     font-size: 16.5px;
   }
-  h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; color: var(--ink); font-weight: 600; }
-  .wrap { max-width: 880px; margin: 0 auto; padding: 0 24px; }
+  h1, h2 { font-family: "IBM Plex Serif", Georgia, serif; color: var(--ink); font-weight: 600; text-wrap: balance; }
+  .mono { font-family: "IBM Plex Mono", "Courier New", monospace; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 0 24px; }
 
-  header { border-top: 6px solid var(--accent); padding: 56px 0 40px; }
-  .kicker {
-    text-transform: uppercase; letter-spacing: 0.18em; font-size: 12.5px;
-    color: var(--accent); font-weight: 700; margin-bottom: 14px;
+  /* Header: seal + name, like the head of a register extract */
+  header { padding: 60px 0 44px; }
+  .masthead { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+  .seal {
+    width: 74px; height: 74px; flex: 0 0 auto;
+    background: var(--seal); color: var(--seal-ink);
+    display: grid; place-items: center;
+    font-family: "IBM Plex Serif", serif; font-size: 30px; line-height: 1.1;
+    letter-spacing: 2px; border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.12);
   }
-  h1 { font-size: clamp(30px, 5vw, 44px); line-height: 1.15; margin-bottom: 18px; }
-  .lede { font-size: 19px; max-width: 640px; color: var(--body); }
+  .masthead-text .name {
+    font-family: "IBM Plex Mono", monospace; font-size: 13px; font-weight: 500;
+    letter-spacing: 0.22em; text-transform: uppercase; color: var(--muted);
+  }
+  h1 { font-size: clamp(28px, 4.6vw, 42px); line-height: 1.16; margin-top: 6px; }
+  .lede { font-size: 18.5px; max-width: 62ch; margin-top: 22px; }
   .lede strong { color: var(--ink); }
 
-  section { padding: 36px 0; border-top: 1px solid var(--line); }
-  h2 { font-size: 24px; margin-bottom: 22px; }
+  section { padding: 40px 0; border-top: 1px solid var(--line); }
+  .sec-label {
+    font-family: "IBM Plex Mono", monospace; font-size: 12px; font-weight: 500;
+    letter-spacing: 0.22em; text-transform: uppercase; color: var(--seal);
+    margin-bottom: 8px;
+  }
+  h2 { font-size: 25px; margin-bottom: 24px; }
 
-  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
-  @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
-  .card {
-    background: var(--card); border: 1px solid var(--line); border-radius: 8px;
-    padding: 22px 24px;
+  /* Services as ledger entries */
+  .ledger { border: 1px solid var(--line-strong); border-radius: 3px; background: var(--surface); }
+  .entry { display: grid; grid-template-columns: 170px 1fr; border-bottom: 1px solid var(--line); }
+  .entry:last-child { border-bottom: none; }
+  .entry .field {
+    font-family: "IBM Plex Mono", monospace; font-size: 12.5px; font-weight: 500;
+    letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted);
+    padding: 22px 20px; border-right: 1px solid var(--line);
   }
-  .card h3 { font-size: 18px; margin-bottom: 8px; }
-  .card .tag {
-    display: inline-block; font-size: 11.5px; font-weight: 700; letter-spacing: 0.08em;
-    text-transform: uppercase; color: var(--accent); margin-bottom: 10px;
+  .entry .value { padding: 20px 24px 22px; }
+  .entry .value h3 {
+    font-family: "IBM Plex Serif", serif; font-size: 18px; font-weight: 600;
+    color: var(--ink); margin-bottom: 6px;
   }
-  .card p { font-size: 15.5px; color: var(--body); }
+  .entry .value p { font-size: 15.5px; }
+  .entry .value strong { color: var(--ink); }
+  @media (max-width: 620px) {
+    .entry { grid-template-columns: 1fr; }
+    .entry .field { padding: 16px 20px 0; border-right: none; }
+    .entry .value { padding-top: 8px; }
+  }
 
-  .principles { list-style: none; }
-  .principles li {
-    padding: 14px 0 14px 34px; position: relative; border-bottom: 1px solid var(--line);
-    font-size: 16px;
+  /* Principles as definition rows */
+  .principles { display: grid; gap: 0; }
+  .principle { display: grid; grid-template-columns: 170px 1fr; gap: 0 20px; padding: 16px 0; border-bottom: 1px solid var(--line); }
+  .principle:last-child { border-bottom: none; }
+  .principle dt {
+    font-family: "IBM Plex Mono", monospace; font-size: 12.5px; font-weight: 500;
+    letter-spacing: 0.14em; text-transform: uppercase; color: var(--seal); padding-top: 3px;
   }
-  .principles li:last-child { border-bottom: none; }
-  .principles li::before {
-    content: "—"; position: absolute; left: 4px; color: var(--accent); font-weight: 700;
-  }
-  .principles strong { color: var(--ink); }
+  .principle dd { font-size: 16px; }
+  .principle dd strong { color: var(--ink); }
+  @media (max-width: 620px) { .principle { grid-template-columns: 1fr; gap: 4px; } }
 
   .scope {
-    background: #f3efe8; border-left: 4px solid var(--accent); border-radius: 0 8px 8px 0;
-    padding: 18px 22px; font-size: 15px; color: var(--muted); font-style: italic;
+    margin-top: 26px; padding: 16px 20px; border: 1px dashed var(--line-strong);
+    border-radius: 3px; font-size: 14.5px; color: var(--muted); font-style: italic;
   }
 
-  .engage { display: flex; gap: 18px; flex-wrap: wrap; align-items: stretch; }
-  .engage .card { flex: 1 1 260px; }
+  .engage-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 620px) { .engage-grid { grid-template-columns: 1fr; } }
+  .engage-card { border: 1px solid var(--line-strong); border-radius: 3px; background: var(--surface); padding: 20px 22px; }
+  .engage-card h3 { font-family: "IBM Plex Serif", serif; font-size: 17.5px; color: var(--ink); margin-bottom: 6px; }
+  .engage-card p { font-size: 15.5px; }
 
   .contact-btn {
-    display: inline-block; background: var(--accent); color: #fff; text-decoration: none;
-    padding: 13px 28px; border-radius: 6px; font-weight: 600; font-size: 16px;
-    margin-top: 14px;
+    display: inline-block; background: var(--seal); color: var(--seal-ink);
+    text-decoration: none; padding: 13px 26px; border-radius: 3px;
+    font-family: "IBM Plex Mono", monospace; font-size: 14.5px; font-weight: 500;
+    letter-spacing: 0.04em; margin-top: 16px;
   }
-  .contact-btn:hover { background: var(--accent-dark); }
+  .contact-btn:hover { filter: brightness(1.08); }
+  .contact-btn:focus-visible { outline: 3px solid var(--line-strong); outline-offset: 2px; }
+  .contact-meta { margin-top: 12px; color: var(--muted); font-size: 15px; }
 
   footer {
-    border-top: 1px solid var(--line); margin-top: 24px; padding: 28px 0 48px;
-    font-size: 14px; color: var(--muted);
+    border-top: 1px solid var(--line); margin-top: 26px; padding: 28px 0 52px;
+    font-size: 13.5px; color: var(--muted);
   }
-  .zh { font-family: "Noto Serif SC", "SimSun", serif; color: var(--muted); }
+  footer .zh { font-family: "IBM Plex Serif", serif; }
 </style>
 </head>
 <body>
 
 <header>
   <div class="wrap">
-    <div class="kicker">CN Document Desk · Hyderabad, India</div>
-    <h1>Chinese technical documents,<br>procured and verified.</h1>
+    <div class="masthead">
+      <div class="seal" aria-hidden="true">查<br>证</div>
+      <div class="masthead-text">
+        <div class="name">CN Document Desk · Hyderabad</div>
+        <h1>Chinese technical documents,<br>procured and verified.</h1>
+      </div>
+    </div>
     <p class="lede">
       A procurement and verification desk — <strong>not a translation
       service</strong>. We obtain Chinese journal articles, patents and
-      standards through legitimate channels that Indian buyers cannot easily
-      access, and we verify provenance, dates and legal status against the
-      primary source before anything reaches you.
+      standards through legitimate channels that Indian buyers cannot
+      easily access, and we verify provenance, dates and legal status
+      against the primary source before anything reaches you.
     </p>
   </div>
 </header>
 
 <section>
   <div class="wrap">
-    <h2>Services</h2>
-    <div class="grid">
-      <div class="card">
-        <div class="tag">Retrieval</div>
-        <h3>Document retrieval</h3>
-        <p>Journal articles from CNKI (China Academic Journals) and Wanfang,
-        Chinese patent full texts, and CNIPA register extracts — each
-        delivered with a provenance note stating exactly where and how it
-        was obtained, and bibliographic details checked against the source.</p>
+    <div class="sec-label">Register of services</div>
+    <h2>What the desk supplies</h2>
+    <div class="ledger">
+      <div class="entry">
+        <div class="field">Retrieval</div>
+        <div class="value">
+          <h3>Document retrieval</h3>
+          <p>Journal articles from CNKI (China Academic Journals) and
+          Wanfang, Chinese patent full texts, and CNIPA register extracts —
+          each delivered with a provenance note stating exactly where and
+          how it was obtained, with bibliographic details checked against
+          the source.</p>
+        </div>
       </div>
-      <div class="card">
-        <div class="tag">Standards</div>
-        <h3>Standards desk</h3>
-        <p>Chinese industry standards — YY (medical), HG (chemical),
-        NY (agriculture), QC (automotive) and others — including
-        <strong>superseded and historical versions</strong>, with an
-        authenticity chain: source, issuing body, and status on the official
-        Chinese standards platform at the date of delivery.</p>
+      <div class="entry">
+        <div class="field">Standards</div>
+        <div class="value">
+          <h3>Standards desk</h3>
+          <p>Chinese industry standards — YY (medical), HG (chemical),
+          NY (agriculture), QC (automotive) and others — including
+          <strong>superseded and historical versions</strong>, with an
+          authenticity chain: source, issuing body, and status on the
+          official Chinese standards platform at the date of delivery.</p>
+        </div>
       </div>
-      <div class="card">
-        <div class="tag">Landscape</div>
-        <h3>Standards landscape</h3>
-        <p>Which Chinese standards apply to your product: mandatory GB,
-        recommended GB/T and industry series, with mandatory-vs-voluntary
-        flags, interaction with NMPA or other approval pathways where
-        relevant, and a prioritised acquisition list. Every standard number
-        verified before it reaches you.</p>
+      <div class="entry">
+        <div class="field">Landscape</div>
+        <div class="value">
+          <h3>Standards landscape</h3>
+          <p>Which Chinese standards apply to your product: mandatory GB,
+          recommended GB/T and industry series, with mandatory-vs-voluntary
+          flags, interaction with NMPA or other approval pathways where
+          relevant, and a prioritised acquisition list. Every standard
+          number verified before it reaches you.</p>
+        </div>
       </div>
-      <div class="card">
-        <div class="tag">Search</div>
-        <h3>Native-keyword patent sweep</h3>
-        <p>A supplement to your own English-language search: Chinese utility
-        models and journal literature searched with native technical
-        vocabulary — including the workshop terms machine translation
-        misses — validated by a native-language reviewer, with publication
-        dates verified against the CNIPA register.</p>
+      <div class="entry">
+        <div class="field">Search</div>
+        <div class="value">
+          <h3>Native-keyword patent sweep</h3>
+          <p>A supplement to your own English-language search: Chinese
+          utility models and journal literature searched with native
+          technical vocabulary — including the workshop terms machine
+          translation misses — validated by a native-language reviewer,
+          with publication dates verified against the CNIPA register.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -146,41 +221,57 @@
 
 <section>
   <div class="wrap">
+    <div class="sec-label">Method</div>
     <h2>How we work</h2>
-    <ul class="principles">
-      <li><strong>Legitimate supply only.</strong> No circumvention of
-      access restrictions, no grey channels. Provenance is the product.</li>
-      <li><strong>Verified, or flagged.</strong> Every date, legal status
-      and bibliographic field is checked against the primary source. What
-      we cannot verify, we mark as unverified — we do not smooth it over.</li>
-      <li><strong>Your brief stays yours.</strong> Client identity and
-      matter context are stripped before any processing; reviewers and
-      suppliers only ever see abstracted technical concepts and published
-      documents. Mutual NDA and a written data-handling statement come
-      first, unprompted.</li>
-      <li><strong>Restrained by design.</strong> Deliverables carry a scope
-      statement listing the databases searched, date ranges and
-      classification codes used.</li>
-    </ul>
+    <dl class="principles">
+      <div class="principle">
+        <dt>Supply</dt>
+        <dd><strong>Legitimate channels only.</strong> No circumvention of
+        access restrictions, no grey channels. Provenance is the
+        product.</dd>
+      </div>
+      <div class="principle">
+        <dt>Verification</dt>
+        <dd><strong>Verified, or flagged.</strong> Every date, legal status
+        and bibliographic field is checked against the primary source.
+        What we cannot verify, we mark as unverified — we do not smooth it
+        over.</dd>
+      </div>
+      <div class="principle">
+        <dt>Confidentiality</dt>
+        <dd><strong>Your brief stays yours.</strong> Client identity and
+        matter context are stripped before any processing; reviewers and
+        suppliers only ever see abstracted technical concepts and published
+        documents. Mutual NDA and a written data-handling statement come
+        first, unprompted.</dd>
+      </div>
+      <div class="principle">
+        <dt>Scope</dt>
+        <dd><strong>Restrained by design.</strong> Deliverables carry a
+        scope statement listing the databases searched, date ranges and
+        classification codes used.</dd>
+      </div>
+    </dl>
   </div>
 </section>
 
 <section>
   <div class="wrap">
+    <div class="sec-label">Terms</div>
     <h2>Engagement</h2>
-    <div class="engage">
-      <div class="card">
+    <div class="engage-grid">
+      <div class="engage-card">
         <h3>The audition</h3>
         <p>New clients: your first job at cost. Judge the work, then decide
         whether we belong on your vendor list.</p>
       </div>
-      <div class="card">
+      <div class="engage-card">
         <h3>Rates</h3>
         <p>Fixed per-engagement pricing with advance-payment terms.
         Rate card on request.</p>
       </div>
     </div>
-    <div class="scope" style="margin-top:22px;">
+    <div class="scope">
       Searches are supplementary and conducted on stated sources, date
       ranges and classification codes — not a guarantee of exhaustiveness,
       and not a legal opinion.
@@ -190,13 +281,12 @@
 
 <section>
   <div class="wrap">
-    <h2>Contact</h2>
+    <div class="sec-label">Contact</div>
+    <h2>Start with a small job</h2>
     <p>Serving Indian IP research firms, exporters facing China, and
     regulatory consultancies.</p>
     <a class="contact-btn" href="mailto:[EMAIL — fill before publishing]">[EMAIL — fill before publishing]</a>
-    <p style="margin-top:12px; color: var(--muted); font-size: 15px;">
-      [PHONE — fill before publishing] · Hyderabad, India
-    </p>
+    <p class="contact-meta">[PHONE — fill before publishing] · Hyderabad, India</p>
   </div>
 </section>
 

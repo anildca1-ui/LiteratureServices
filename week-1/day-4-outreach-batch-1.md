@@ -8,15 +8,20 @@ sending: fill the [CONTACT] fields with a named person (LinkedIn
 people-search — needs your account), give each opening line a 30-second
 check against the firm's live site, and log every send in `funnel.csv`.
 
-Send routes found so far:
+Named contacts found via public sources, 2026-08-22 (ZoomInfo/LinkedIn
+snippets, company sites — names verified in print; **email addresses are
+pattern guesses except where noted, expect some bounces; fall back to the
+site contact form or a LinkedIn message if one bounces**):
 
-| Firm | Route |
-|---|---|
-| Copperpod IP | Named contact via LinkedIn (delivery centre: Chandigarh; HQ New York) — copperpodip.com |
-| Dolcera | Contact form web.dolcera.com/contact + LinkedIn; office: Salarpuria Sattva Knowledge City, Rai Durg, Hyderabad |
-| Effectual Services | info@effectualservices.com · +91 120 4522210 — weak channel; find the delivery head on LinkedIn |
-| Synoptic IP | [VERIFY] via synopticip.com |
-| Inrea Research | Site form inrearesearch.com · +91 22 4098 7600 |
+| Firm | Person for the Dear-line | Best send route |
+|---|---|---|
+| Copperpod IP | Rahul Vijh, co-founder (or Purva Sharma, co-founder) | try `rahul.vijh@copperpodip.com` / `rahul@copperpodip.com` [GUESS]; else site form |
+| Dolcera | Lakshmikant Goenka, Founder & MD (Hyderabad angle; Samir Raiyani, CEO, is the US side) | try `lakshmikant.goenka@dolcera.com` [GUESS]; else web.dolcera.com/contact |
+| Effectual Services | Dr. Amit Goel, Founder/Director | `info@effectualservices.com` (confirmed) with "Attn: Dr. Amit Goel" in the opening; try `amit.goel@effectualservices.com` [GUESS] in cc |
+| Synoptic IP | Ankit Saxena, Founder (Delhi NCR) | ZoomInfo shows pattern `a***@synopticip.com` — try `ankit@synopticip.com` [GUESS] |
+| Inrea Research | Sourav Mukherjee, Director | try `sourav.mukherjee@inrearesearch.com` [GUESS]; else site form · +91 22 4098 7600. Note: Inrea is a Netscribes group company |
+
+Use these names in each email's `Dear [CONTACT — VERIFY]` line.
 
 ---
 
