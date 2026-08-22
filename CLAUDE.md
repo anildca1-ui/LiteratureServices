@@ -45,8 +45,14 @@ currently in flight. The original strategy pack is `master-plan.md`
   now including List B (agrochem exporters + regulatory-consultancy
   multipliers; see `outreach/list-b-targets.md`).
 - Outreach batch 2 (List A, week 2) drafted: `outreach/batch-2.md`.
-- Operator's pending actions: create the two claude.ai projects; send the
-  two supplier emails; LinkedIn contacts for batch 1; wallet test purchase.
+- ✅ 2026-08-22: both claude.ai projects created; both supplier emails SENT
+  (CNKI marketing@int.cnki.net, Wanfang overseas@wanfangdata.com).
+  Follow-ups due: FU1 2026-08-29, FU2 2026-09-07.
+- One-page website built at `website/index.html` (no prices shown, per
+  rule 3; contact placeholders to fill). Discipline list permits exactly
+  one page — this is it.
+- Operator's pending actions: LinkedIn contacts for batch 1 + send;
+  wallet test purchase; mock sweep execution.
 
 ## Environment notes
 

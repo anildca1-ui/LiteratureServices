@@ -6,7 +6,7 @@ nearest equivalent.
 
 ---
 
-## Step 1 — Create the two claude.ai projects (~15 min, do today)
+## Step 1 — Create the two claude.ai projects — ✅ DONE 2026-08-22
 
 1. [ ] Open claude.ai → left sidebar → **Projects** → **New project**.
        (Projects need a paid plan — Pro or above.)
@@ -58,7 +58,7 @@ invoice gap is the GST problem driving the month-4 supply deadline.
 6. [ ] Write the friction log into a new file `notes/wallet-friction-log.md`
        — it feeds the Day 90 / month-4 supply decision.
 
-## Step 3 — Send the two supplier emails (~20 min, this starts the moat clock)
+## Step 3 — Send the two supplier emails — ✅ SENT 2026-08-22 (moat clock running; FU1 due 2026-08-29, FU2 due 2026-09-07, same thread, 3 sentences)
 
 1. [ ] Decide the from-address. A clean personal Gmail works today;
        a ₹600–800/yr domain (e.g. `cndocdesk.in`) with free Zoho Mail looks
