@@ -41,7 +41,12 @@ currently in flight. The original strategy pack is `master-plan.md`
 - Mock sweep: target chosen (US11174678B2) and D1 keyword set generated
   (`week-1/day-5-target-and-keywords.md`); claim 1 paste + freeze +
   the actual searches are pending. This is the **Week 3 gate** for T3.
-- Funnel seeded with 16 live targets + 1 dead (`project-1-sales-ops/funnel.csv`).
+- Funnel seeded with 24 live targets + 1 dead (`project-1-sales-ops/funnel.csv`),
+  now including List B (agrochem exporters + regulatory-consultancy
+  multipliers; see `outreach/list-b-targets.md`).
+- Outreach batch 2 (List A, week 2) drafted: `outreach/batch-2.md`.
+- Operator's pending actions: create the two claude.ai projects; send the
+  two supplier emails; LinkedIn contacts for batch 1; wallet test purchase.
 
 ## Environment notes
 
