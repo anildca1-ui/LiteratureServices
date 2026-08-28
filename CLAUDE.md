@@ -51,6 +51,12 @@ currently in flight. The original strategy pack is `master-plan.md`
 - One-page website built at `website/index.html` (no prices shown, per
   rule 3; contact placeholders to fill). Discipline list permits exactly
   one page — this is it.
+- 2026-08-28 (automated D7 review — `reviews/2026-08-28-weekly.md`):
+  **zero outreach sends to date**; batch 1 finished and waiting since
+  22 Aug on operator's [NAME]/[PHONE] + send. One variable next week:
+  10 emails out (batch 1 by Tue 1 Sep, batch 2 by Fri). Supplier FU1
+  fires automatically 29 Aug. Wallet test, mock sweep (gate ~12 Sep) and
+  reviewer recruitment untouched.
 - Operator's pending actions: LinkedIn contacts for batch 1 + send;
   wallet test purchase; mock sweep execution.
 
