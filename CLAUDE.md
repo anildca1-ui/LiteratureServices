@@ -47,7 +47,8 @@ currently in flight. The original strategy pack is `master-plan.md`
 - Outreach batch 2 (List A, week 2) drafted: `outreach/batch-2.md`.
 - ✅ 2026-08-22: both claude.ai projects created; both supplier emails SENT
   (CNKI marketing@int.cnki.net, Wanfang overseas@wanfangdata.com).
-  Follow-ups due: FU1 2026-08-29, FU2 2026-09-07.
+  FU1 drafts delivered to operator 2026-08-29 (in `week-1/day-2-…`);
+  FU2 due 2026-09-07. Supplier replies still unreported.
 - One-page website built at `website/index.html` (no prices shown, per
   rule 3; contact placeholders to fill). Discipline list permits exactly
   one page — this is it.

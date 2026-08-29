@@ -1,5 +1,9 @@
 # Day 2 — Supplier emails: CNKI International and Wanfang
 
+**STATUS: both sent 2026-08-22. FU1 drafted 2026-08-29 (below). FU2 due
+2026-09-07.** If a supplier replied before FU1, skip its follow-up and
+handle the reply instead.
+
 DRAFTS — under 200 words each, per the Day 2 instruction. Addresses below
 were found via web research (July 2026) — do a 30-second confirmation on the
 supplier's own contact page before sending, fill in your name and phone, and
@@ -94,3 +98,35 @@ reply-to-same-thread). Log both sends and follow-ups in `funnel.csv`-style
 tracking — supplier relationships get the same discipline as sales. No
 reply from either after FU2 = early evidence for red-team failure reason 2;
 raise it in the Friday D7 review.
+
+---
+
+## FU1 drafts (2026-08-29) — reply in the SAME thread, do not start new emails
+
+### CNKI — reply to your 22 Aug email to marketing@int.cnki.net
+
+Dear CNKI International team,
+
+Following up on my note of 22 August about reseller/agent terms for
+the India market. Since writing, I have mapped an initial pipeline of
+24 Indian IP research firms and China-facing exporters as prospective
+buyers of China Academic Journals, patent and standards content, so the
+demand side is taking shape. Could you point me to the commercial
+contact responsible for South Asia so we can discuss terms?
+
+Regards,
+[NAME]
+
+### Wanfang — reply to your 22 Aug email to overseas@wanfangdata.com
+
+Dear Wanfang Data team,
+
+I wrote on 22 August about agent/reseller terms for per-document
+delivery into India and wanted to follow up. My prospective buyer
+pipeline now covers 24 Indian IP research firms and exporters needing
+Chinese journal, patent and standards documents with proper invoicing.
+Who on your overseas team handles agent relationships for South Asia,
+and could we arrange a short call?
+
+Regards,
+[NAME]
