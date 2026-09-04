@@ -52,6 +52,12 @@ currently in flight. The original strategy pack is `master-plan.md`
 - One-page website built at `website/index.html` (no prices shown, per
   rule 3; contact placeholders to fill). Discipline list permits exactly
   one page — this is it.
+- 2026-09-04 (automated D7 review — `reviews/2026-09-04-weekly.md`):
+  second consecutive zero-send week; avoidance pattern named per brief.
+  Single directive: ONE email (Dolcera) by Mon 8 Sep 10:00 IST. FU2 fires
+  7 Sep; mock-sweep gate ~12 Sep arrives unstarted (T3 pitch narrows to
+  T1/T2 until run). Operator asked to report FU1/batch-1 status or name
+  the blocker.
 - 2026-08-28 (automated D7 review — `reviews/2026-08-28-weekly.md`):
   **zero outreach sends to date**; batch 1 finished and waiting since
   22 Aug on operator's [NAME]/[PHONE] + send. One variable next week:
