@@ -52,6 +52,12 @@ currently in flight. The original strategy pack is `master-plan.md`
 - One-page website built at `website/index.html` (no prices shown, per
   rule 3; contact placeholders to fill). Discipline list permits exactly
   one page — this is it.
+- 2026-09-07: FU2 drafts (final supplier follow-up) delivered to operator
+  in `week-1/day-2-supplier-emails.md`. Supplier replies still unreported.
+  **Evidence flag armed:** zero response from both suppliers after FU2 =
+  red-team failure reason 2 evidence; next Friday D7 must weigh it against
+  the month-4 supply kill criterion. Dolcera single-send directive due
+  today 10:00 IST.
 - 2026-09-04 (automated D7 review — `reviews/2026-09-04-weekly.md`):
   second consecutive zero-send week; avoidance pattern named per brief.
   Single directive: ONE email (Dolcera) by Mon 8 Sep 10:00 IST. FU2 fires

@@ -1,8 +1,11 @@
 # Day 2 — Supplier emails: CNKI International and Wanfang
 
-**STATUS: both sent 2026-08-22. FU1 drafted 2026-08-29 (below). FU2 due
-2026-09-07.** If a supplier replied before FU1, skip its follow-up and
-handle the reply instead.
+**STATUS: both sent 2026-08-22. FU1 drafted 2026-08-29. FU2 drafted
+2026-09-07 (below) — the FINAL follow-up.** If a supplier replied at any
+point, skip its follow-up and handle the reply instead. Zero response from
+both suppliers after FU2 is recorded evidence for red-team failure
+reason 2 (supply never graduates from the wallet) and feeds the month-4
+kill criterion at the Friday D7 reviews.
 
 DRAFTS — under 200 words each, per the Day 2 instruction. Addresses below
 were found via web research (July 2026) — do a 30-second confirmation on the
@@ -127,6 +130,40 @@ pipeline now covers 24 Indian IP research firms and exporters needing
 Chinese journal, patent and standards documents with proper invoicing.
 Who on your overseas team handles agent relationships for South Asia,
 and could we arrange a short call?
+
+Regards,
+[NAME]
+
+---
+
+## FU2 drafts (2026-09-07) — FINAL follow-up, same threads
+
+### CNKI — reply again in the 22 Aug thread to marketing@int.cnki.net
+
+Dear CNKI International team,
+
+A final follow-up on my 22 August enquiry about reseller/agent terms
+for the India market. If formal agent terms are not currently offered,
+could you advise the best supported route for a Hyderabad-based document
+service to purchase China Academic Journals, patent and standards
+content commercially — for example a deposit account with receipts?
+Even a pointer to the right commercial contact for South Asia would be
+appreciated; in the meantime I will continue as a retail user within
+your overseas access terms.
+
+Regards,
+[NAME]
+
+### Wanfang — reply again in the 22 Aug thread to overseas@wanfangdata.com
+
+Dear Wanfang Data team,
+
+Following up once more on my 22 August enquiry about agent terms for
+per-document delivery into India. If a formal agent arrangement is not
+available, is there a supported commercial route — a deposit account or
+invoiced pay-per-document service — that a Hyderabad-based document desk
+could use? A pointer to whoever handles South Asia commercially would be
+much appreciated.
 
 Regards,
 [NAME]
