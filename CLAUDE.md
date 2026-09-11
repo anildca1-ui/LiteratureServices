@@ -52,6 +52,11 @@ currently in flight. The original strategy pack is `master-plan.md`
 - One-page website built at `website/index.html` (no prices shown, per
   rule 3; contact placeholders to fill). Discipline list permits exactly
   one page — this is it.
+- 2026-09-11 (automated D7 review — `reviews/2026-09-11-weekly.md`):
+  third consecutive zero week; **Week-3 mock-sweep gate recorded as
+  passed UNRUN** → T3 unsellable until the sweep runs; pitch narrows to
+  T1/T2/T2+. Operator asked for one of: numbers / named blocker /
+  "pause". Binding constraint recorded as operator engagement.
 - 2026-09-07: FU2 drafts (final supplier follow-up) delivered to operator
   in `week-1/day-2-supplier-emails.md`. Supplier replies still unreported.
   **Evidence flag armed:** zero response from both suppliers after FU2 =
