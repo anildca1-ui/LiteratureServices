@@ -52,6 +52,10 @@ currently in flight. The original strategy pack is `master-plan.md`
 - One-page website built at `website/index.html` (no prices shown, per
   rule 3; contact placeholders to fill). Discipline list permits exactly
   one page — this is it.
+- 2026-09-18 (automated D7 review — `reviews/2026-09-18-weekly.md`):
+  fourth zero week; no operator contact since ~30 Aug. 11 Sep decision
+  (numbers / blocker / "pause") still unanswered; reviews shortened per
+  no-new-data rule.
 - 2026-09-11 (automated D7 review — `reviews/2026-09-11-weekly.md`):
   third consecutive zero week; **Week-3 mock-sweep gate recorded as
   passed UNRUN** → T3 unsellable until the sweep runs; pitch narrows to
