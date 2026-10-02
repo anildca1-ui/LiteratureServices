@@ -52,6 +52,10 @@ currently in flight. The original strategy pack is `master-plan.md`
 - One-page website built at `website/index.html` (no prices shown, per
   rule 3; contact placeholders to fill). Discipline list permits exactly
   one page — this is it.
+- 2026-10-02 (`reviews/2026-10-02-weekly-final.md`): sixth zero week;
+  **review cadence dropped to monthly (1st of month, 17:30 IST)** as
+  announced 25 Sep. Snaps back to weekly on any operator report. Open
+  decision unchanged: numbers / named blocker / "pause".
 - 2026-09-25 (automated D7 review — `reviews/2026-09-25-weekly.md`):
   fifth zero week. Notice given: review cadence drops to monthly after
   2 Oct if silence continues; snaps back to weekly on any operator report.
